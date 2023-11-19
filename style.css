@@ -1,0 +1,100 @@
+html {
+  background-image: url(assets/bg12.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(255, 255, 255);
+  font-family: roboto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+hr {
+  margin: 15px 0px;
+}
+
+textarea{
+    resize: none;
+}
+
+.caixaPrincipal {
+  border: 10px solid rgba(255, 255, 255, 0.1);
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3.5em auto auto;
+  padding: 0px 20px 20px;
+  /* topo, lado(s), baixo, lado*/
+  align-items: center;
+  backdrop-filter: blur(70px);
+  text-shadow: -2px 2px 4px black;
+}
+
+
+.radio_check_Margin {
+  display: inline-block;
+  justify-content: center;
+}
+
+.inputMargin {
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #111827;
+  border: 1px solid white;
+  border-radius: 0.75rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: ubuntu;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 0.75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6b7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: 0.2s;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button:hover {
+  background-color: #374151;
+}
+
+.button:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.divdobotao {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#cargoCidade {
+  margin-bottom: 0px;
+}
+
+#cargoCurriculoMini {
+  width: 100%;
+  font-size: 16px;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Formulario2.0</title>
+  </head>
+  <body>
+    <main>
+      <section class="caixaPrincipal">
+        <h1>Formulário</h1>
+
+        <form action="">
+          <section class="dadosPessoais">
+            <fieldset>
+              <legend>Dados Pessoais</legend>
+
+              <label for="cargoNome">Nome:</label> <br />
+              <input
+                class="inputMargin"
+                type="text"
+                name="cargoNome"
+                id="cargoNome"
+              />
+              <br />
+
+              <label for="cargoEndereco">Endereço:</label> <br />
+              <input
+                class="inputMargin"
+                type="text"
+                name="cargoEndereco"
+                id="cargoEndereco"
+              />
+              <br />
+
+              <label for="cargoEstado">Estado:</label> <br />
+              <select class="inputMargin" name="cargoEstado" id="cargoEstado">
+                <option value="CE">Ceará</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+              </select>
+              <br />
+
+              <section>
+                <label for="cargoCidade">Cidade:</label> <br />
+                <input
+                  class="inputMargin"
+                  type="text"
+                  name="cargoCidade"
+                  id="cargoCidade"
+                />
+              </section>
+            </fieldset>
+
+            <br />
+
+            <fieldset>
+              <legend>Dados Profissionais</legend>
+
+              <h2>Natureza do Cargo</h2>
+
+              <div class="radio_check_Margin">
+                <input type="radio" name="cargoNat" id="cargoNatGerencia" />
+                <label for="cargoNatGerencia">Gerência</label>
+              </div>
+
+              <div class="radio_check_Margin">
+                <input type="radio" name="cargoNat" id="cargoNatFinanceiro" />
+                <label for="cargoNatFinanceiro">Financeiro</label>
+              </div>
+
+              <div class="radio_check_Margin">
+                <input type="radio" name="cargoNat" id="cargoNatRecepcao" />
+                <label for="cargoNatRecepcao">Recepção</label>
+              </div>
+
+              <div class="radio_check_Margin">
+                <input
+                  type="radio"
+                  name="cargoNat"
+                  id="cargoNatAdministrativo"
+                />
+                <label for="cargoNatAdministrativo">Administrativo</label>
+              </div>
+
+              <div class="radio_check_Margin">
+                <input type="radio" name="cargoNat" id="cargoNatJuridico" />
+                <label for="cargoNatJuridico">Jurídico</label>
+              </div>
+
+              <hr />
+
+              <h2>Área de Interesse</h2>
+              <div class="radio_check_Margin">
+                <input
+                  type="checkbox"
+                  name="cargoInterrese"
+                  id="cargoInterreseComputacao"
+                />
+                <label for="cargoInterreseComputacao">Computação</label>
+              </div>
+
+              <div class="radio_check_Margin">
+                <input
+                  type="checkbox"
+                  name="cargoInterrese"
+                  id="cargoInterreseBiologia"
+                />
+                <label for="cargoInterreseBiologia">Biologia</label>
+              </div>
+
+              <div class="radio_check_Margin">
+                <input
+                  type="checkbox"
+                  name="cargoInterrese"
+                  id="cargoInterreseMAmbiente"
+                />
+                <label for="cargoInterreseMAmbiente">Meio Ambiente</label>
+              </div>
+
+              <div class="radio_check_Margin">
+                <input
+                  type="checkbox"
+                  name="cargoInterrese"
+                  id="cargoInterreseEngenharia"
+                />
+                <label for="cargoInterreseEngenharia">Engenharia</label>
+              </div>
+
+              <div class="radio_check_Margin">
+                <input
+                  type="checkbox"
+                  name="cargoInterrese"
+                  id="cargoInterreseHistoria"
+                />
+                <label for="cargoInterreseHistoria">História</label>
+              </div>
+
+              <hr />
+
+              <h2>Escreva um Mini-Currículo:</h2>
+              <textarea
+                name="cargoCurriculoMini"
+                id="cargoCurriculoMini"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </fieldset>
+
+            <div class="divdobotao">
+              <button type="reset" class="button buttonLimpar">Limpar</button>
+              <button type="button" class="button buttonEnviar">Enviar</button>
+            </div>
+          </section>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
